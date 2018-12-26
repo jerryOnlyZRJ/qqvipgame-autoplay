@@ -25,3 +25,5 @@ $ adb devices
 ```shell
 $ npm start
 ```
+
+5⃣️自动完成本局游戏
