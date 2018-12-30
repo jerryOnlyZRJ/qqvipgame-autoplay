@@ -2,7 +2,7 @@ const {
     exec
 } = require('child_process')
 
-const TOTAL_TIMES_FOR_ACCELERATE = 12
+const TOTAL_TIMES_FOR_ACCELERATE = 13
 const ACCELERATE_DURATION = 5600
 const DELAY_AFTER_CLICK_START_BUTTON = 1000 
 let times = 2
@@ -13,6 +13,7 @@ setTimeout(() => {
     const loops = setInterval(() => {
         if (times > TOTAL_TIMES_FOR_ACCELERATE) {
             clearInterval(loops)
+            exec('adb shell input tap 535 1050')
             process.exit(0)
         } else {
             // 长按加速按钮
