@@ -2,7 +2,7 @@ const {
     exec
 } = require('child_process')
 
-const TOTAL_TIMES_FOR_ACCELERATE = 13
+const TOTAL_TIMES_FOR_ACCELERATE = 16
 const ACCELERATE_DURATION = 5600
 const DELAY_AFTER_CLICK_START_BUTTON = 1000 
 let times = 2
