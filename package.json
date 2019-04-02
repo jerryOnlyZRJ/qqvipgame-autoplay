@@ -1,7 +1,7 @@
 {
   "name": "qqvipgame-autoplay",
   "version": "1.0.0",
-  "description": "",
+  "description": "QQ会员超级萌宠“萌宠外卖”自动打工脚本(For meizu X8)(可调参)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
