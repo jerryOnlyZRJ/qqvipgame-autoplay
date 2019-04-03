@@ -5,7 +5,7 @@ const setTitle = require('node-bash-title');
 setTitle('超级萌宠自动化脚本');
 
 // 一局游戏需要加速的次数
-const TOTAL_TIMES_FOR_ACCELERATE = 15
+const TOTAL_TIMES_FOR_ACCELERATE = 13
 // 长按加速按钮的时间
 const ACCELERATE_PRESS_DURATION = 250
 // 两次按下加速按钮的时间间隔
